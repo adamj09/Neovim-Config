@@ -111,7 +111,7 @@ require("lazy").setup({
                 require("mason-lspconfig").setup()
                 require("mason-lspconfig").setup_handlers({
                     function (server_name)
-                        require("lspconfig")[server_name].setup({})
+                        require("lspconfig")[server_name].setup()
                     end,
                 })
             end,
@@ -119,7 +119,7 @@ require("lazy").setup({
         { -- Autosave
             "pocco81/auto-save.nvim",
             config = function()
-                require("auto-save").setup({})
+                require("auto-save").setup()
             end,
         },
         { -- Indentation Guides
@@ -228,7 +228,7 @@ require("lazy").setup({
                 })
             end,
         },
-        { -- Rooter (makes sure whatever directory the currently openede folder is in is the working directory in which
+        { -- Rooter (makes sure whatever directory the currently opened folder is in is the working directory in which
           -- commands will execute)
             "notjedi/nvim-rooter.lua",
             config = function()
@@ -258,7 +258,14 @@ require("lazy").setup({
                 "nvim-telescope/telescope.nvim",
             },
             config = true
-        },                           },
+        },
+        { -- Gitsigns
+            "lewis6991/gitsigns.nvim",
+            config = function()
+                require("gitsigns").setup()
+            end,
+        },
+    },
 	-- Configure any other settings here. See the documentation for more details.
 	-- colorscheme that will be used when installing plugins.
 	install = { colorscheme = { "habamax" } },
