@@ -29,7 +29,7 @@ require("lazy").setup({
         { -- Tokoyo Night Colorscheme  
             "folke/tokyonight.nvim",
             config = function()
-                vim.cmd.colorscheme("tokyonight-night")                                
+                vim.cmd.colorscheme("tokyonight-night")
 		    end,
             lazy = false,
             priority = 1000,

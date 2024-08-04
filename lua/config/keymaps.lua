@@ -21,3 +21,6 @@ vim.keymap.set("n", "TT", ":Telescope<CR>", opts) -- Open Telescope
 vim.keymap.set("n", "FF", ":Telescope find_files<CR>", opts) -- Find files in current dir
 vim.keymap.set("n", "FK", ":Telescope keymaps<CR>", opts) -- Look at keymaps
 vim.keymap.set("n", "FR", ":Telescope oldfiles<CR>", opts) -- Find previously viewed files
+
+-- Make ng open Neogit
+vim.keymap.set("n", "ng", ":Neogit<CR>", opts)
