@@ -4,3 +4,4 @@
 - [Ripgrep](https://github.com/BurntSushi/ripgrep)
 - [Any Nerd font](https://www.nerdfonts.com/)
 - GDB (for debugging Rust, C, and C++)
+- Python 3 (for clang-format)
