@@ -4,3 +4,4 @@
 - [Ripgrep](https://github.com/BurntSushi/ripgrep)
 - [Any Nerd font](https://www.nerdfonts.com/)
 - Python 3 (for clang-format installation)
+- Gradle (for building Java projects)
