@@ -1,4 +1,4 @@
-# **Requires**
+# **Requirements**
 - [Neovim](https://neovim.io/) version >= 0.9.0
 - [Git](https://git-scm.com/)
 - [Ripgrep](https://github.com/BurntSushi/ripgrep)
