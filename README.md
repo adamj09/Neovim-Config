@@ -1,5 +1,6 @@
 # **Installation**
 Just clone the repo into *C:\Users\YourName\AppData\Local\nvim* for Windows, and *~/.config/nvim* for Linux.
+You will need to change some paths defined in *ftplugin\java.lua* for Java support to work.
 
 # **Requirements**
 - [Neovim](https://neovim.io/) version >= 0.9.0
