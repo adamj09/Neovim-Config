@@ -9,6 +9,7 @@ You will need to change some paths defined in *ftplugin\java.lua* for Java suppo
 - [Any Nerd font](https://www.nerdfonts.com/)
 - [Python 3](https://www.python.org/downloads/) (for clang-format installation)
 - [JDK](https://www.oracle.com/ca-en/java/technologies/downloads/#java22) version 17 or greater (for Java support)
+- [JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls)
 - [java-debug](https://github.com/microsoft/java-debug) (follow the installation instructions [here](https://github.com/mfussenegger/nvim-jdtls#java-debug-installation))
 - [vscode-java-test](https://github.com/microsoft/vscode-java-test) (follow the installation instructions [here](https://github.com/mfussenegger/nvim-jdtls?tab=readme-ov-file#vscode-java-test-installation))
 - Node.js
