@@ -1,3 +1,6 @@
+# **Installation**
+Just clone the repo into *C:\Users\YourName\AppData\Local\nvim* for Windows, and *~/.config/nvim* for Linux.
+
 # **Requirements**
 - [Neovim](https://neovim.io/) version >= 0.9.0
 - [Git](https://git-scm.com/)
