@@ -1,0 +1,9 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "filesystem",
+        "dashboard",
+        "buffers",
+        "noop"
+    ]
+}

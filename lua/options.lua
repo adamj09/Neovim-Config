@@ -10,8 +10,6 @@ vim.g.nvim_tree_respect_buf_cwd = 1
 
 -- Line numbers
 vim.opt.number = true
-vim.opt.relativenumber = true
-vim.o.statuscolumn = "%l %=%r " -- Both relative and absolute line numbers enabled
 
 -- Command line height
 vim.opt.cmdheight = 1
@@ -56,3 +54,6 @@ vim.opt.incsearch = true
 
 -- Fast update time
 vim.opt.updatetime = 50
+
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
