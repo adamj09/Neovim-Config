@@ -27,7 +27,6 @@ vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
 vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
 
 -- Telescope
-
 vim.keymap.set("n", "<C-p>", ":Telescope find_files<CR><Esc>", {})
 vim.keymap.set("n", "<leader>fg", ":Telescope live_grep<CR>", {})
 vim.keymap.set("n", "<leader>fo", ":Telescope oldfiles<CR><Esc>", {})
