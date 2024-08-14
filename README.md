@@ -14,7 +14,7 @@ Just clone the repo into *C:\Users\YourName\AppData\Local\nvim* for Windows, and
 # **Notes**
 This config looks better with a transparent terminal.
 Here are the colourscheme and opacity settings I use in Windows Terminal:
-- Foreground colour: #FFFFFF
+- Foreground colour: #FFFFFF 
 - Background colour: #1A1B26
 - Cursor colour: #FFFFFF
 - Selection background colour: #292E42
