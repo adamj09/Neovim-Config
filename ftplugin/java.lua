@@ -1,10 +1,10 @@
--- Note: skull emojis mean these paths will vary from system to system and must therefore be changed if necessary.
+-- Note: 💀 indicate paths that may vary from system to system and must therefore be changed if necessary
 local config = {
 	-- The command that starts the language server
 	cmd = {
 		-- 💀
 		"java", -- or '/path/to/java17_or_newer/bin/java'
-		-- depends on if `java` is in your $PATH env variable and if it points to the right version.
+		-- If "java" is an environment variable in your system, simply leave this as "java"
 
 		"-Declipse.application=org.eclipse.jdt.ls.core.id1",
 		"-Dosgi.bundles.defaultStartLevel=4",
@@ -69,13 +69,6 @@ local config = {
 		},
 	},
 
-	-- Language server `initializationOptions`
-	-- You need to extend the `bundles` with paths to jar files
-	-- if you want to use additional eclipse.jdt.ls plugins.
-	--
-	-- See https://github.com/mfussenegger/nvim-jdtls#java-debug-installation
-	--
-	-- If you don't plan on using the debugger or other eclipse.jdt.ls plugins you can remove this
 	init_options = {
 		bundles = {},
 	},
@@ -83,9 +76,11 @@ local config = {
 
 local bundles = {
 	vim.fn.glob("C:/java-debug/com.microsoft.java.debug.plugin/target/com.microsoft.java.debug.plugin-0.53.0.jar", 1),
+                -- Make sure this is the directory to "com.microsoft.java.debug.plugin-[version number here].jar"
 }
 
 vim.list_extend(bundles, vim.split(vim.fn.glob("C:/vscode-java-test/server/*.jar", 1), "\n"))
+                                             -- Make sure this is the directory to "vscode-java-test/server/*.jar" 
 config["init_options"] = {
 	bundles = bundles,
 }
