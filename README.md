@@ -28,3 +28,5 @@ Here are the colourscheme and opacity settings I use in Windows Terminal:
 - Cursor colour: #FFFFFF
 - Selection background colour: #292E42
 - Opacity: 90%
+
+test
