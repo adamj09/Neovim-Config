@@ -17,6 +17,7 @@ return {
 					require("lspconfig")[server_name].setup({ capabilities = capabilities })
 				end,
                 ["jdtls"] = noop, -- Prevent lspconfig from loading JDTLS
+                ["rust_analyzer"] = noop, -- Prevent lspconfig from loading Rust Analyzer, in favour of Rustaceanvim
 			})
 		end,
 		opts = {
@@ -24,9 +25,7 @@ return {
 				-- Lua
 				"lua_ls",
 				"stylua",
-				-- C, C++, and Rust
-				"rust_analyzer",
-				"rustfmt",
+				-- C and C++
 				"clangd",
 				"clang-format",
 				"codelldb",
