@@ -1,6 +1,6 @@
 # **Installation**
 Perform a clean installation of Neovim. Then, just clone the repo into *%USERPROFILE%\AppData\Local* for Windows, 
-and *~/.config* for Linux. Change name of the folder "Neovim-Config" to "nvim". Upon launching Neovim, the configuration
+or *~/.config* for Linux. Change name of the folder "Neovim-Config" to "nvim". Upon launching Neovim, the configuration
 should automatically install.
 
 For Java support you will need to change some paths defined in the *../ftplugin/java.lua* file.
@@ -20,7 +20,7 @@ The paths needed to be changed are indicated in the file.
 
 # **Notes**
 Personally, this config looks better with a transparent terminal, since the background for the installed colourscheme is
-turned off by default (you can change this in *../lua/plugins/toykonight.lua* by passing an empty setup function.
+turned off by default (you can change this in *../lua/plugins/toykonight.lua* by passing an empty setup function).
 
 Here are the colourscheme and opacity settings I use in Windows Terminal:
 - Foreground colour: #FFFFFF 
