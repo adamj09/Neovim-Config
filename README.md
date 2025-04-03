@@ -1,3 +1,6 @@
+# **Notice**
+This is by no means a "good" configuration relative to other, popular, configurations. It is, however, completely usable; it is what I sometimes use to code. Also, this project was created primarily for learning purposes and personal use, and will therefore only be updated whenever I encounter an issue using it.
+
 # **Installation**
 Perform a clean installation of Neovim. Then, just clone the repo into *%USERPROFILE%\AppData\Local* for Windows, 
 or *~/.config* for Linux. Change name of the folder "Neovim-Config" to "nvim". Upon launching Neovim, the configuration
